@@ -106,7 +106,7 @@ dropHearts: false
 # If a heart should be dropped, when the killer already has the max amount of hearts
 dropHeartsIfMax: true
 # If a player should lose a heart, when dying to hostile mobs or falldamage, lava, etc
-looseHeartsToNature: true
+looseHeartsToNature: false
 # If a player should lose a heart, when being killed by another player
 looseHeartsToPlayer: true
 # Whether it should be announced, when a player got eliminated (has no more hearts)
@@ -115,16 +115,16 @@ announceElimination: true
 # Allows players to withdraw a heart, even if they only have one left
 allowDyingFromWithdraw: true
 # If the totem effect should be played, when you use a heart
-playTotemEffect: false
+playTotemEffect: true
 # The time you have to wait, before you can use another heart in Milliseconds
 heartCooldown: 0
 # How many times a player can be revived. Set to -1 to make it infinite
 maxRevives: -1
 
 # If the use of totems of undying should be prevented
-preventTotems: false
+preventTotems: true
 # If crystalpvp should be disabled
-preventCrystalPVP: false
+preventCrystalPVP: true
 
 # Only disable this option if you want to add custom commands on elimination and don't want the player to get banned
 disablePlayerBanOnElimination: false
